@@ -1,0 +1,164 @@
+/* Medium Layout: 1200px. *
+
+Checking Size: 1000px*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+    .bottom-cta {
+        margin: 72px -32px 0;
+    } 
+    .reservation-area::before {
+        background-position: 11px -35px;
+    }
+    .navbar-nav li a {
+        font-size: 15px;
+    }
+    .menu {
+        margin: 14px 57px;
+    }
+    .single-menu img {
+        max-width: 30%;
+        margin: 16px 0;
+    }
+    .about-img img {
+        width: 60%;
+    }
+  }
+  
+
+
+/* Tablet Layout: 768px. 
+
+Checking Size: 800px*/
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 750px;
+    }
+    .row {
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo {
+        text-align: center;
+        padding: 15px 0 25px;
+    }
+    .menu {
+        margin: 14px 20px;
+    }
+    .bannar p {
+     font-size: 30px;
+    }
+    .bannar h1 {
+        font-size: 45px;
+        margin-bottom: 70px;
+      
+    }
+    .about-img img {
+        width: 80%;
+
+    }
+    .top-cta span {
+        padding-top: 12px;
+    }
+    .single-special-menu {
+        margin-top: 30px;
+        border: 1px solid #ddd;
+    }
+    .bottom-cta p {
+        margin-top: 24px;
+        margin-left: -84px;
+    }
+    .bottom-cta ul li {
+        float: right;
+        margin: 0 -32px;
+    }
+    .bottom-cta {
+
+        margin: 72px -52px 0;
+    }
+}  
+
+/* Mobile Layout: 350px
+
+Checking Size: 400px
+*/
+@media only screen and (max-width: 767px){
+    .container{
+        width: 350px;
+    }
+    .bannar h1 {
+        font-size: 23px;
+
+    }
+    .about-img img {
+        width: 100%;
+        margin: 67px 0px;
+        
+    }
+    .single-menu img {
+        max-width: 100%;
+        margin-bottom: 20px;
+   
+    }
+    .our-menu-content {
+        margin-top: 30px;
+        flex-basis: 100%;
+       
+    }
+    .top-cta span {
+       
+        font-size: 26px;
+    }
+    .single-special-menu {
+        margin-top: 30px;
+        border: 1px solid #ddd;
+    }
+    .bottom-cta p {
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+    .bottom-cta {
+   
+        margin: 72px -38px 0;
+    }
+    .about-team-img img {
+        margin-top: 40px;
+        vertical-align: middle;
+        border-style: none;
+        width: 100%;
+        margin: 32px 0;
+    }
+    .single-team img {
+        width: 100%;
+    }
+    .reservation-area::before {
+   
+        display: none;
+    }
+    .section-title span {
+        font-size: 27px;
+   
+    }
+    .header-area {
+        margin: 12px 0px;
+    }
+    .navbar-nav li a {
+   
+        background-color: #fff;
+        color: #333;
+        padding: 8px 15px;
+        border-bottom: 1px dashed;
+    }
+    .navbar-nav li a:hover{
+        color: #FF5E18;
+    }
+    .navbar-toggler {
+  
+        background-color: #fff;
+    
+  }
+}
